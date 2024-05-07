@@ -1,0 +1,155 @@
+
+
+@media (min-width: 600px) {
+    .place-block {
+        flex-direction: row;
+    }
+
+    .place-block-info {
+        max-width: 310px;
+        border-radius: 6px 0 0 6px;
+    }
+
+    .place-block-image picture, .place-block-image img {
+        border-radius: 0 6px 6px 0;
+    }
+    .horizontal-card{
+        flex-direction: row;
+    }
+    .horizontal-card:last-of-type{
+        flex-direction: row-reverse;
+    }
+    .custom-list{
+        column-count: 2;
+        column-gap: 47px;
+    }
+}
+
+@media (min-width: 776px) and (min-height: 600px) {
+    .footer {
+        justify-content: center;
+        height: 70px
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-section {
+        background-position: center center
+    }
+
+    .main-section-title {
+        font-size: 50px
+    }
+
+    .main-section-title span {
+        font-size: 36px
+    }
+
+    .rate-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .section-tip {
+        display: flex;
+        align-items: center;
+    }
+
+    .section-tip__icon {
+        display: flex;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 50px;
+        position: relative;
+    }
+
+    .hamburger {
+        top: 11px;
+        right: 52px
+    }
+
+    .section-bottom {
+        padding: 160px 0 200px;
+    }
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .embed-image-wrapper {
+        overflow-x: hidden;
+    }
+
+    .embed-image-wrapper__image {
+        max-width: 100% !important;
+    }
+
+    .nav-footer--link {
+        font-size: 18px
+    }
+}
+
+@media (min-width: 999px) {
+    body {
+        margin: 90px 0 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .section-figure {
+        display: flex;
+        align-items: center
+    }
+
+    .section-figure img, .section-figure picture {
+        width: auto;
+    }
+
+    .section-figure__caption {
+        max-width: 531px;
+        position: absolute;
+        left: 16px;
+        padding: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .nav {
+        display: flex;
+        align-items: center
+    }
+
+    .mobile-menu__bar {
+        display: none
+    }
+
+    .hamburger {
+        display: none
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .section-title {
+        scroll-margin-top: 110px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .section-title {
+        font-size: 30px;
+    }
+
+    .regular-title {
+        font-size: 28px;
+    }
+}
+
+@media (min-device-pixel-ratio: 2),(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+    .main-section {
+        background-image: url(../images/tui-sommerrodelbahn-mein-teaser_@2x.webp)
+    }
+}
+
+
