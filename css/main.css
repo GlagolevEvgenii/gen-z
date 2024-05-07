@@ -3,10 +3,10 @@
     position: relative;
     height: 518px;
     background-color: #ece78b;
-    background-image: url(../images/tui-sommerrodelbahn-mein-teaser.webp);
+    background-image: url(../images/tui-genz-z-main-teaser_@1x.webp);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70% 100%;
 }
 
 .content-title {
@@ -63,77 +63,6 @@
     border-radius: 10px
 }
 
-.section-tip__icon{
-    margin-right: 20px;
-}
-.section-tip{
-    margin-bottom: 40px;
-}
-.custom-list{
-    font-weight: bold;
-    font-size: 18px;
-    margin: 0;
-    padding-left: 19px;
-}
-.sub-list{
-    list-style-type: disc;
-    font-weight: 400;
-    font-size: 16px;
-    padding-left: 2px;
-}
-.custom-list>li>p{
-    font-weight: 400;
-    font-size: 16px;
-}
 
-.rate-wrap {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-}
-
-.rate-item__img {
-    margin-bottom: 25px;
-}
-
-.rate-item {
-    background-color: #E2F3FE;
-    padding: 0 30px 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.rate-item__title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 136.4%;
-    margin-bottom: 25px;
-    margin-top: 0;
-}
-
-.horizontal-card{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 30px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-    background: #E2F3FE;
-}
-.horizontal-card:last-of-type{
-    margin-bottom: 0;
-}
-.horizontal-card--title{
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: 15px;
-    margin-top: 0;
-}
-.horizontal-card--img{
-    flex-shrink: 0;
-}
 
 

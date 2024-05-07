@@ -169,7 +169,7 @@ ul {
 }
 
 .section-gradient {
-    background: linear-gradient(180deg, #A3DDF8 0%, rgba(163, 221, 248, 0.40) 49%, #A3DDF8 100%);
+    background: linear-gradient(180deg, rgba(163, 221, 248, 0.80) 0%, rgba(163, 221, 248, 0.45) 51%, rgba(163, 221, 248, 0.80) 100%);
 }
 .section-blue{
     background-color: #A3DDF8;
@@ -245,7 +245,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 776px
+    flex-basis: 878px
 }
 
 .nav-list--item {
@@ -254,7 +254,7 @@ strong {
     text-align: left;
     transform: scale(1);
     transition: all .3s ease;
-    margin-right: 60px;
+    margin-right: 50px;
     display: inline-block;
 
     &:last-child {
