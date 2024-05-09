@@ -519,3 +519,101 @@ strong {
 .mb-40 {
     margin-bottom: 40px!important;
 }
+.swiper {
+    width: 100%;
+    padding-bottom: 60px !important;
+    max-width: 904px;
+    margin:  0 auto;
+    padding-left: 2px!important;
+    padding-right: 2px!important;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.item-slider {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: auto!important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    /*margin: 2px;*/
+    box-sizing: border-box;
+
+}
+
+.item-slider .item-slider-img img, .item-slider .item-slider-img picture {
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.item-slider-img {
+    height: 286px;
+}
+
+.item-slider-content {
+    padding: 20px 40px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.content-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.content-text {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.content-time{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+.content-time span{
+    margin-left: 10px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 20px !important;
+    height: 32px !important;
+    display: none!important;
+}
+.swiper-button-next img, .swiper-button-prev img  {
+    width: 20px !important;
+    height: 32px !important;
+    display: block;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    height: 20px !important;
+    width: 20px !important;
+    background-color: #E2F3FE !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #70CBF4 !important;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
