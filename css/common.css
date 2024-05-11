@@ -188,6 +188,10 @@ ul {
     line-height: 126.66%;
     margin-bottom: 20px;
 }
+.section-subtitle {
+    font-size: 22px;
+    scroll-margin-top: 90px;
+}
 
 .regular-title {
     font-size: 23px;
